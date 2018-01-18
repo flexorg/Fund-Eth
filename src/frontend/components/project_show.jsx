@@ -95,7 +95,7 @@ class ProjectShow extends React.Component {
             </div>
           </div>
 
-          <img src={project.imageUrl}
+          <img src={project.image_url}
             className="project-show-image"
           ></img>
 

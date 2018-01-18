@@ -474,3 +474,8 @@ body {
 .project-show-amount-input:focus {
   border: 2px solid  #A9C5E6;
 }
+
+.project-show-image {
+  width: 650px;
+  height: 465px;
+}

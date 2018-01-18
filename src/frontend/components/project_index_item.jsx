@@ -12,7 +12,7 @@ class ProjectIndexItem extends React.Component {
 
   render() {
     const project = this.props.project;
-
+    console.log(project.imageUrl);
     return(
       <div className="project-item-container">
 
@@ -29,9 +29,10 @@ class ProjectIndexItem extends React.Component {
 
         <div className="project-item-image-container">
           <Link to={`/projects/${project.id}`} className="project-item-title-link">
-            <img src={project.imageUrl}
+            <img src={project.image_url}
               className="project-item-image"
-            ></img>
+              role="presentation"
+            />
           </Link>
         </div>
 
