@@ -88,5 +88,5 @@ export const createProject = async (name, description, imageUrl,instance, addres
 
 export const donateToProject = async (projectId, amount, instance, account) => {
   instance.donateToProject(projectId, amount, { from: account, value: amount });
-  return true;
+  
 };
